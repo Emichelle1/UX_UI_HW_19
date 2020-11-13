@@ -15,10 +15,14 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <style>
-        body {font-family: "Lato", sans-serif}
+        body {font-family: "Lato", sans-serif, font-size}
         .mySlides {display: none}
 
         <style>
+
+          
+            
+}
   p1 {
     color: red;
     margin: 5px;
@@ -33,13 +37,32 @@
 <body>
  
 <p>Coronavirus Updates</p>
-<p1>Due to the ongoing pandemic, all in-person meetings will be cancelled. All meetings will be virtual. Take steps to care for yourself and help protect others in your home and community.
-  (Click Me)
-</p1>
+<head>
+  <style>
+  h1 {
+    font-size: 40px;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  
+  p {
+    font-size: 14px;
+  }
+  </style>
+  </head>
+  <body>
+  
+  <h2><p1>Due to the ongoing pandemic, all in-person meetings will be cancelled. All meetings will be virtual. Take steps to care for yourself and help protect others in your home and community.
+    (Click Me)
+  </p1></h2>
+  
+
 
  
 <script>
-$( "p" ).click(function() {
+$( "p1" ).click(function() {
   $( this ).slideUp();
 });
 </script>
@@ -121,10 +144,10 @@ $( "p1" ).click(function() {
           <div class="main" id="#about"></div>
           <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="about">
             <h2 class="w3-wide">About Me</h2>
-            <p class="w3-opacity"><i>I love to design.</i></p>
-            <p class="w3-justify">I am Erin England, a freelance UX/UI designer. I enjoy solving real-world problems and creating beautiful human experiences. I specialize in systems and interfaces. I am passionate about making sure that websites and mobile applications are ravishing, user-friendly, and brand promoting. My skills include  researching, prototyping, testing, and validating ideas. 
+            <p class="w3-opacity"><h3><i>I love to design.</i></h3></p>
+            <p class="w3-justify"><h3>I am Erin England, a freelance UX/UI designer. I enjoy solving real-world problems and creating beautiful human experiences. I specialize in systems and interfaces. I am passionate about making sure that websites and mobile applications are ravishing, user-friendly, and brand promoting. My skills include  researching, prototyping, testing, and validating ideas. 
 
-              Let’s talk designs!</p>
+              Let’s talk designs!</h3></p>
            
 
                 
@@ -145,8 +168,10 @@ $( "p1" ).click(function() {
                   <div class="w3-container w3-white">
                     <p><b>Ballot Bites</b></p>
                     <p class="w3-opacity">Duration; 3 weeks</p>
-                    <p>Teams of three are tasked with developing a mobile application of their choosing while executing the user experience (UX)/user interface (UI) design process.</p>
-                    <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">View Details</button>
+                    <p>Teams of 3 are tasked with developing a mobile application of their choosing while executing the user experience (UX)/user interface (UI) design process.</p>
+                    <form id="myForm">
+                      <a class="w3-button w3-black w3-margin-bottom" href="https://emichelle1.github.io/UX_UI_HW_20/">View More</a>
+                  </form>
                   </div>
                 </div>
                 <div class="w3-third w3-margin-bottom">
@@ -154,8 +179,10 @@ $( "p1" ).click(function() {
                   <div class="w3-container w3-white">
                     <p><b>Department of Interior</b></p>
                     <p class="w3-opacity">Duration; 3 weeks</p>
-                    <p>Teams of three are tasked with redesigning  a government agency website. Teams will use the design process to define, ideate, prototype, and test a responsive website solution.</p>
-                    <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">View Details</button>
+                    <p>Teams of 3 are tasked with redesigning  a government agency website. Teams will use the design process to define, ideate, prototype, and test a responsive website solution.</p>
+                    <form id="myForm">
+                      <a class="w3-button w3-black w3-margin-bottom" href="https://emichelle1.github.io/UX_UI_HW_20/">View More</a>
+                  </form>
                   </div>
                 </div>
                 <div class="w3-third w3-margin-bottom">
@@ -163,7 +190,7 @@ $( "p1" ).click(function() {
                   <div class="w3-container w3-white">
                     <p><b>One Million School Supplies</b></p>
                     <p class="w3-opacity">Duration; 3 weeks</p>
-                    <p>Teams of three are tasked with choosing a local nonprofit and executing the UX/UI design process. The teams will create a high-fidelity responsive web design solution through a clickable UI prototype.
+                    <p>Teams of 3 are tasked with choosing a local nonprofit and executing the UX/UI design process. The teams will create a high-fidelity responsive web design solution through a clickable UI prototype.
 
                     </p>
                     <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">View Details</button>
@@ -181,7 +208,7 @@ $( "p1" ).click(function() {
         
           <!-- The Expertise Section -->
           <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="expertise">
-            <h2 class="w3-wide w3-center">Expertise</h2>
+            <h2 class="w3-wide w3-center"><b>Expertise</b></h2>
             <p class="w3-opacity w3-center"><i><b>Erin England</b></i></p>
  
             <p class="w3-opacity w3-center"><i>Email: Erin.england87@gmail.com | Mobile: (706) 495-8456 | Augusta, GA 30909 | LinkedIn: /ErinEngland  | Portfolio: www.ErinEngland.com</i></p>
@@ -304,3 +331,4 @@ $( "p1" ).click(function() {
         
         </body>
         </html>
+
